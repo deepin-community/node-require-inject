@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-require-inject-$1/ \
+ https://github.com/iarna/require-inject/tags .*/archive/.*/v?([\d\.]+).tar.gz

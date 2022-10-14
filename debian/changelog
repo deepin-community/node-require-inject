@@ -1,0 +1,36 @@
+node-require-inject (1.4.4-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed
+  * Fix GitHub tags regex
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Tue, 09 Nov 2021 12:33:00 +0100
+
+node-require-inject (1.4.4-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.0
+  * Bump debhelper compatibility level to 12
+  * Update VCS fields to salsa
+  * Use pkg-js-tools auto install
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * debian/watch: use GitHub tags instead of npm registry
+  * New upstream version 1.4.4
+  * Install all *.md files in doc
+  * Enable upstream test using tap
+  * Update copyright
+  * Add upstream/metadata
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 09 Mar 2020 09:30:09 +0100
+
+node-require-inject (1.4.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #862275)
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 10 May 2017 20:04:03 +0530
