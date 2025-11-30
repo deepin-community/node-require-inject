@@ -19,6 +19,7 @@ Package: node-require-inject
 Architecture: all
 Depends: ${misc:Depends}
  , node-caller
+Multi-Arch: foreign
 Description: simple mock injector
  This library is a simple mock injector compatible needing no instrumentation
  in the libraries being tested.

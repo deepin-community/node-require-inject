@@ -1,1 +1,1 @@
-tap test/*.js
+tap -R tap --no-cov --jobs=1 test/*.js
